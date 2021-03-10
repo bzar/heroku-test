@@ -1,4 +1,10 @@
 {
   "name": "python-heroku-test",
-  "image": "heroku/python"
+  "image": "heroku/python",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
